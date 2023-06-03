@@ -11,14 +11,25 @@
 }
 
 .Navigation-bar{
-    padding: 15px;
+    padding: 12px;
     justify-content: space-between;
+}
+
+.Navigation-bar img{
+    width: 35px;
+    border-radius: 17.5px;
+    margin-left: 45px;
 }
 
 .links{
     display: flex;
     width: 30%;
     justify-content: space-around;
+    padding-top: 10px;
+}
+
+.Navigation-bar .links a{
+    color: silver;
 }
 
 .Footer{
@@ -34,6 +45,11 @@
     background-color: silver;
 }
 
+.First-box, .Second-box, .Third-box, .Fourth-box{
+    
+    padding-top: 15px;
+}
+
 .First-box{
     display: flex;
     width: 100%;
@@ -42,6 +58,20 @@
 
 .First-text{
     width: 30%;
+}
+
+.First-box .First-text button{
+    height: 25px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: lightgray;
+    cursor: pointer;
+    color: blue;
+}
+
+.First-box img{
+    width: 40%;
+    border-radius: 20px;
 }
 
 .Second-box{
@@ -55,6 +85,10 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
+}
+
+.Second-img img{
+    width: 20%;
 }
 
 .Third-box{
@@ -71,13 +105,14 @@
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .Fourth-container{
     display: flex;
     justify-content: center;
     width: 50%;
-    background-color: aqua;
+    background-color: rgb(40, 68, 225);
     border-radius: 15px;
 }
 
